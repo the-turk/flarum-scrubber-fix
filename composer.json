@@ -1,0 +1,38 @@
+{
+  "name": "the-turk/flarum-scrubber-fix",
+  "description": "Prevent scrubber from going above the footer.",
+  "keywords": [
+    "flarum",
+    "scrubber",
+    "fix"
+  ],
+  "license": "MIT",
+  "type": "flarum-extension",
+  "authors": [{
+    "name": "Hasan Özbey",
+    "email": "hasanoozbey@gmail.com",
+    "homepage": "https://github.com/the-turk"
+  }],
+  "support": {
+    "issues": "https://discuss.flarum.org/d/21808-scrubber-not-hiding-and-going-above-the-footer",
+    "source": "https://discuss.flarum.org/d/21808-scrubber-not-hiding-and-going-above-the-footer"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "TheTurk\\ScrubberFix\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Scrubber Fix",
+      "icon": {
+        "name": "fas fa-ticket-alt",
+        "backgroundColor": "#b72a2a",
+        "color": "#fff"
+      }
+    }
+  }
+}
